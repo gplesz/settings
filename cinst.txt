@@ -1,0 +1,46 @@
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+cinst git.install -y
+cinst keepass.install -y
+cinst visualstudio2015community -y
+
+cinst googlechrome -y
+cinst firefox -y
+cinst vlc -y
+cinst notepadplusplus -y
+cinst visualstudiocode  -y
+cinst kdiff3 -y
+cinst linqpad -y
+cinst winrar -y
+cinst 7zip -y
+
+cinst sql-server-express -y
+cinst sql-server-management-studio -y
+cinst windowsazurepowershell -y
+cinst VWDOrVs2015AzurePack.2.7 -source webpi -y
+rem cinst xamarin-visualstudio
+
+
+cinst obs-studio --version 19.0.3  -y
+
+cinst curl -y
+cinst sysinternals -y
+cinst procexp -y
+cinst procmon -y
+
+cinst skype -y
+cinst spotify -y
+cinst slack -y
+
+cinst kav -y
+
+cinst wireshark -y
+cinst fiddler -y
+cinst nssm -y
+cinst greenshot -y
+cinst audacity -y
+
+cinst docker-for-windows -y
+cinst rescuetime -y
+
+cinst windowsazurepowershell -y
