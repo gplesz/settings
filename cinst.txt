@@ -20,6 +20,15 @@ cinst windowsazurepowershell -y
 cinst VWDOrVs2015AzurePack.2.7 -source webpi -y
 rem cinst xamarin-visualstudio
 
+rem start /w pkgmgr /iu:IIS-WebServerRole;WAS-WindowsActivationService;WAS-ProcessModel;
+
+rem PS C:\> cWindowsFeatures IIS-WebServerRole
+rem PS C:\> cWindowsFeatures IIS-ISAPIFilter
+rem PS C:\> cWindowsFeatures IIS-ISAPIExtensions
+rem PS C:\> cWindowsFeatures IIS-NetFxExtensibility
+rem PS C:\> cWindowsFeatures IIS-ASPNET
+
+rem cinst iis7manager -y
 
 cinst obs-studio --version 19.0.3  -y
 
