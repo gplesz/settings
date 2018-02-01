@@ -51,5 +51,4 @@ cinst audacity -y
 
 cinst docker-for-windows -y
 cinst rescuetime -y
-
 cinst windowsazurepowershell -y
